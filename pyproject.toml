@@ -1,0 +1,60 @@
+[project]
+name = "llm-engineering"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    # Core Python scientific stack
+    "numpy>=2.3.3",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
+    "scipy>=1.16.2",
+    # Deep Learning + Transformers
+    "torch>=2.8.0",
+    "transformers>=4.56.2",
+    "sentence-transformers>=5.1.1",
+    "tiktoken>=0.11.0",
+    # Vector Databases + Embeddings
+    "chromadb>=1.1.0",
+    # LLM API Clients
+    "openai>=1.109.1",
+    "anthropic>=0.69.0",
+    "google-genai>=1.41.0",
+    "google-generativeai>=0.8.5",
+    "ollama>=0.6.0",
+    # LangChain Ecosystem
+    "langchain>=0.3.27",
+    "langchain-core>=0.3.76",
+    "langchain-community>=0.3.30",
+    "langchain-openai>=0.3.33",
+    "langchain-text-splitters>=0.3.11",
+    "langchain-chroma>=0.2.6",
+    "langchain-huggingface>=1.0.0",
+    "langchain-ollama>=1.0.0",
+    "langchain-anthropic>=1.0.1",
+    "langchain-experimental>=0.0.42",
+    # Web + Data tools
+    "requests>=2.32.5",
+    "beautifulsoup4>=4.14.2",
+    "feedparser>=6.0.12",
+    "datasets==3.6.0",
+    # Utilities
+    "python-dotenv>=1.1.1",
+    "tqdm>=4.67.1",
+    "psutil>=7.1.0",
+    # Visualization + UI
+    "plotly>=6.3.0",
+    "gradio>=5.47.2",
+    "matplotlib>=3.10.6",
+    # Dev + notebook tools
+    "ipykernel>=6.30.1",
+    "ipywidgets>=8.1.7",
+    "nbformat>=5.10.4",
+    # Cloud + workflow tools
+    "modal>=1.1.4",
+    # Additional
+    "protobuf==3.20.2",
+    "setuptools>=80.9.0",
+]

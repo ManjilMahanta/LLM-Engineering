@@ -1,0 +1,5 @@
+Pre-Requisites:
+1. The Project Folder should have a file named pyproject.toml! You can initialise it using uv init in your terminal (ctrl + `) and then add each library required manually
+	Ex. uv add library
+2.Keep Ollama installed in your system
+3.Initialise ollama pull llama3.2 and then also add openai library
